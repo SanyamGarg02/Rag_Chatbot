@@ -5,7 +5,7 @@ model_name = "google/flan-t5-small"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
-# Set up pipeline
+#pipeline
 llm = pipeline("text2text-generation", model=model, tokenizer=tokenizer)
 
 def generate_answer(context, question):

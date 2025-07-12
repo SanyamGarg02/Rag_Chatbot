@@ -94,5 +94,3 @@ May hallucinate if context is irrelevant or missing
 flan-t5-small is a lightweight model – may struggle with very nuanced questions
 
 
-📽️ Demo Video / Screenshots
-![Chatbot UI](demo/Sources.png)
